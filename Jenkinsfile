@@ -32,7 +32,8 @@ pipeline{
             }
         }
     }    
-
+  }
+}
 pipeline {
     agent {label 'OPENJDK-11-JDK'}
     triggers {
