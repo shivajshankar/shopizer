@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage('clone'){
             steps{
-                git url: 'https://github.com/tarunkumarpendem/shopizer.git',
+                git url: 'https://github.com/shivajshankar/shopizer.git',
                     branch: 'master'
             }
         }
@@ -41,7 +41,7 @@ pipeline {
     stages {
         stage('vcs') {
             steps {
-                git branch: 'release', url: 'https://github.com/longflewtinku/shopizer.git'         
+                git branch: 'release', url: 'https://github.com/shivajshankar/shopizer.git'         
             }
         }
         stage('merge') {
